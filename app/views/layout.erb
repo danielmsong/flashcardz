@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- 
+    normalize.css removes cross-browser differences in defaults, e.g.,
+    differences in how form elements appear between Firefox and IE
+    See: http://necolas.github.com/normalize.css/
+  -->
+  <link rel="stylesheet" href="/css/normalize.css">
+  <!--
+    application.css is where you put your styles
+  -->
+  <link rel="stylesheet" href="/css/application.css">
+  <link href='http://fonts.googleapis.com/css?family=Trade+Winds|Fugaz+One' rel='stylesheet' type='text/css'>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="/js/application.js"></script>
+  <link href='http://fonts.googleapis.com/css?family=Fresca' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Alef' rel='stylesheet' type='text/css'>
+  <title></title>
+</head>
+<body>
+  <header>
+    <div id="logo">
+      <a href="/"><span class="grandmaster">GRANDMASTER</span> <span class="flash">FLASH</span></a>
+    </div>
+  </header>
+
+  <div class="container">
+    <%= yield %>
+  </div>
+  
+  <footer>
+    <p>&copy; Puff Blunt Marky, Gangsta Danny D, Frosty J Quik Bomb, Nesty Styles a.k.a Funky Tripp</p>
+  </footer>
+
+</body>
+</html>

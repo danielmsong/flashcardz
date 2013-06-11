@@ -1,0 +1,20 @@
+<div id="card">
+  <%= erb :_card %>
+</div>
+
+<div id="input">
+  <input type="submit" value="show back">
+</div>
+
+<div class="feedback">
+  <input id="bad" type="submit" value="bad">
+  <input id="ok" type="submit" value="ok">
+  <input id="good" type="submit" value="good">
+</div>
+
+<a id="done" href="/">X</a>
+
+<script>
+  var deck_id = <%= @deck.id %>;
+  var user_id = <%= current_user %>;
+</script>

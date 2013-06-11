@@ -1,0 +1,174 @@
+/* GRANDMASTER FLASH, footer, background */
+
+
+body {
+  padding: 20px;
+  /*background-size: cover;*/
+}
+html {
+  background: url("../bling.jpg")  no-repeat center center fixed;
+  background-size: cover;
+}
+header {
+  text-align: center;
+  background-color: #F7A285;
+  width: 750px;
+  margin: 0 auto;
+  border-radius: 5px;
+  border: 3px outset #888;
+  margin-top: 50px;
+}
+
+#logo a .grandmaster {
+  font-family: 'Fugaz One', cursive;
+  color: #9B310C;
+}
+#logo a .flash {
+  font-family: 'Trade Winds', cursive;
+  color: #EF5906;
+}
+
+footer {
+  text-align: center;
+  font-family: 'Alef', sans-serif;
+  color:  #444;
+}
+
+/* Container */
+
+.container {
+  position: relative;
+  text-align: center;
+  width: 600px;
+  min-height: 400px;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 20px;
+  border: 3px outset #888;
+  box-shadow: 5px 5px 5px #222;
+  border-radius: 10px;
+  background-color: white;
+  font-family: 'Alef', sans-serif;
+}
+
+.container h2 {
+  font-weight: 800;
+  color: #9B5C0C;
+}
+
+
+/* Pick a deck */
+
+ol {
+  list-style: none;
+  padding-left: 0;
+  margin: 0 auto;
+  font-size: 20px;
+  line-height: 30px;
+  width: 400px;
+}
+
+li a {
+  width: 200px;
+  float: left;
+  text-decoration: none;
+  color: #333;
+}
+
+#logout, #history, #deck span {
+  position: absolute;
+  margin: 10px;
+  bottom: 0%;
+}
+
+#logout { left: 0%; }
+#history { right: 0%; }
+#deck span { margin-left: -50%; }
+
+
+/* History */
+
+#logo, #logo a {
+  margin: 20px 0;
+  font-family: Georgia;
+  font-size: 60px;
+  font-weight: 700;
+  font-style: none;
+  text-decoration: none;
+  color: #222;
+}
+
+
+
+input {
+  width: 20%;
+}
+
+label {
+  width: 5%;
+}
+
+#front {
+  font-family: 'Fresca', sans-serif;
+  font-size: 30px;
+  color: #444;
+}
+
+#back {
+  font-family: 'Trade Winds', cursive;
+  font-size: 46px;
+  font-weight: 100;
+  text-transform: uppercase;
+  color: #EF5906;
+  text-shadow: 3px 1px 5px #888;
+}
+
+#input, .feedback {
+  position: relative;
+  width: auto;
+  margin-top: 30%;
+}
+
+#input input:hover, .feedback input:hover {
+  background-color: #EF9626
+}
+
+#input input, .feedback input {
+  margin: 10px 10px;
+  background-color: #F7B25B
+}
+
+a#done {
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  top: 0%;
+  left: 0%;
+  margin: 10px 0 0 10px;
+  text-decoration: none;
+  border: 1px solid #666;
+  border-radius: 20px;
+  border-style: outset;
+  color: #666;
+  background-color: #F75F5B;
+  color: white;
+}
+
+li span#deck, li span#studied {
+  margin: 5px 10px;
+  border-bottom: 1px solid #444;
+
+}
+fieldset#login, fieldset#signup {
+  position: absolute;
+  bottom: 5%;
+  margin: 15px auto 0px auto;
+  width: 578px;
+  height: 50px;
+  border: 1px solid #888;
+  border-radius: 2px;
+}
+
+fieldset#login {
+  bottom: 25%;
+}

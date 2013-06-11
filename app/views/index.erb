@@ -1,0 +1,25 @@
+<h2>Choose a deck:</h2>
+
+<div id="deck">
+  <ol>
+    <% @deck.each do |deck| %>
+      <li> 
+        <a href="/deck/<%= deck.id %>"><%= deck.name %></a>
+      </li>
+    <% end %>
+  </ol>
+  <% if current_user %>
+    <form id="logout-button" method="GET" action="/logout">
+      <input id="logout" type="submit" value="logout">
+    </form>
+      <span>Logged in as: <%= User.find(current_user).username %></span>
+    <form method="GET" action="/history">
+      <input id="history" type="submit" value="history">
+    </form>
+  <% end %>
+</div>
+
+<% unless current_user %>
+  <%= erb :_login %>
+  <%= erb :_signup %>
+<% end %>
